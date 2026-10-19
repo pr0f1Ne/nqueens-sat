@@ -1,0 +1,41 @@
+{
+  "n_values": [
+    8,
+    16,
+    32,
+    64
+  ],
+  "encodings": [
+    "pairwise",
+    "sequential",
+    "bitwise"
+  ],
+  "repeats": 1,
+  "timeout_seconds": 10.0,
+  "output_directory": "results\\pilot_group_b",
+  "seed": 20261017,
+  "shuffle": false,
+  "methods": [
+    "sat",
+    "cpsat",
+    "cplex_mip"
+  ],
+  "cpsat_seed": 0,
+  "cpsat_workers": 1,
+  "cplex_seed": 0,
+  "cplex_threads": 1,
+  "run_id": "nqueens-20261017T111814.074346Z-ad7283cc",
+  "created_at": "2026-10-17T11:18:14.075636Z",
+  "solvers": {
+    "sat": "Glucose3",
+    "cpsat": "OR-Tools CP-SAT",
+    "cplex_mip": "IBM ILOG CPLEX"
+  },
+  "benchmark_order_seed_scope": "Chỉ điều khiển thứ tự case khi shuffle=true; không phải solver seed.",
+  "execution": "sequential",
+  "expected_case_count": 20,
+  "timeout_scope": "Mỗi lần chạy: từ trước khi tiến trình cha spawn worker đến sau khi nhận kết quả và thu hồi worker; gồm build, load, solve, decode và validate.",
+  "internal_timeout_seconds": null,
+  "cpsat_timeout_relation": "Không đặt giới hạn nội bộ; chỉ deadline ngoài worker áp dụng cho toàn case.",
+  "cplex_timeout_relation": "Không đặt giới hạn nội bộ; chỉ deadline ngoài worker áp dụng cho toàn case."
+}

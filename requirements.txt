@@ -1,0 +1,6 @@
+python-sat==1.9.dev16
+ortools==9.15.6755
+cplex==22.2.0.1
+docplex==2.32.264
+gurobipy==13.0.3
+matplotlib==3.11.2

@@ -1,0 +1,31 @@
+{
+  "captured_at": "2026-10-17T06:00:35.704404Z",
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 165 Stepping 3, GenuineIntel",
+  "logical_cpu_count": 12,
+  "ram_bytes": 17109934080,
+  "python_version": "3.14.6",
+  "python_implementation": "CPython",
+  "dependencies": {
+    "python-sat": "1.9.dev16"
+  },
+  "solver": {
+    "name": "Glucose3",
+    "pysat_class": "pysat.solvers.Glucose3",
+    "seed": null,
+    "seed_control": "not_exposed_by_current_api",
+    "workers": null,
+    "workers_control": "not_configurable_by_current_api"
+  },
+  "git_commit": null,
+  "git_worktree_dirty": null,
+  "source_hash_algorithm": "sha256",
+  "source_hashes": {
+    "benchmark.py": "19b6742d3715182b663cce25538145f8f746c0978eb5e30cd4e6b2a30f2fea3d",
+    "sat_encoding.py": "392dbdc96361e4f5f025c0d3f088b51b10b41b7bc5c41ae6ad0dcabd31347c27",
+    "sat_solver.py": "2af008c440762ab1cacde6774cf39cae5216518be98a3908575b84506ac51745",
+    "timeout_runner.py": "eb063f9bf339c57b27d4c06d2891577dec0207e5bd0312a6b92ee94658de983b",
+    "validator.py": "5f1ede2661350f0e7cf66b0b2addfc978e4cdd6bbf4faa59d7f5498c4676c005",
+    "requirements.txt": "3b0c8794995572633b77dec54eb63bec8e01406dbd57d73e630925daefe32907"
+  }
+}

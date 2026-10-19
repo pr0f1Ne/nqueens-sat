@@ -1,0 +1,35 @@
+{
+  "n_values": [
+    4,
+    8,
+    16
+  ],
+  "encodings": [
+    "pairwise",
+    "sequential",
+    "bitwise"
+  ],
+  "repeats": 2,
+  "timeout_seconds": 10.0,
+  "output_directory": "results",
+  "seed": 20261017,
+  "shuffle": true,
+  "methods": [
+    "sat",
+    "cpsat"
+  ],
+  "cpsat_seed": 0,
+  "cpsat_workers": 1,
+  "run_id": "nqueens-20261017T063518.106777Z-7f5d3393",
+  "created_at": "2026-10-17T06:35:18.107016Z",
+  "solvers": {
+    "sat": "Glucose3",
+    "cpsat": "OR-Tools CP-SAT"
+  },
+  "benchmark_order_seed_scope": "Chỉ điều khiển thứ tự case khi shuffle=true; không phải solver seed.",
+  "execution": "sequential",
+  "expected_case_count": 24,
+  "timeout_scope": "Mỗi lần chạy: từ trước khi tiến trình cha spawn worker đến sau khi nhận kết quả và thu hồi worker; gồm build, load, solve, decode và validate.",
+  "internal_timeout_seconds": null,
+  "cpsat_timeout_relation": "Không đặt giới hạn nội bộ; chỉ deadline ngoài worker áp dụng cho toàn case."
+}

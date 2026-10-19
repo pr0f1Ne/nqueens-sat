@@ -1,0 +1,30 @@
+# Python bytecode và cache cục bộ
+__pycache__/
+*.py[cod]
+
+# Môi trường ảo và cache công cụ
+.venv/
+.pytest_cache/
+.coverage
+.matplotlib-cache/
+tmp/
+
+# Tệp hệ điều hành/editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Tệp trung gian do LaTeX sinh ra
+report/*.aux
+report/*.bbl
+report/*.bcf
+report/*.blg
+report/*.fdb_latexmk
+report/*.fls
+report/*.log
+report/*.out
+report/*.run.xml
+report/*.synctex.gz
+report/*.toc
+
+# Không bỏ qua results/: dữ liệu thực nghiệm chính thức phải được lưu lại.

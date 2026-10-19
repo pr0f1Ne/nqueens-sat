@@ -1,0 +1,69 @@
+{
+  "captured_at": "2026-10-17T17:14:38.163775Z",
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 165 Stepping 3, GenuineIntel",
+  "logical_cpu_count": 12,
+  "ram_bytes": 17109934080,
+  "python_version": "3.14.6",
+  "python_implementation": "CPython",
+  "dependencies": {
+    "python-sat": "1.9.dev16",
+    "ortools": "9.15.6755",
+    "cplex": "22.2.0.1",
+    "docplex": "2.32.264",
+    "gurobipy": "13.0.3"
+  },
+  "solvers": [
+    {
+      "method": "SAT",
+      "name": "Glucose3",
+      "class": "pysat.solvers.Glucose3",
+      "seed": null,
+      "seed_control": "not_exposed_by_current_api",
+      "workers": null,
+      "workers_control": "not_configurable_by_current_api"
+    },
+    {
+      "method": "CP-SAT",
+      "name": "OR-Tools CP-SAT",
+      "class": "ortools.sat.python.cp_model.CpSolver",
+      "dependency_version": "9.15.6755"
+    },
+    {
+      "method": "CPLEX_MIP",
+      "name": "IBM ILOG CPLEX",
+      "class": "cplex.Cplex",
+      "dependency_version": "22.2.0.1",
+      "distribution": "Community Edition"
+    },
+    {
+      "method": "GUROBI_MIP",
+      "name": "Gurobi Optimizer",
+      "class": "gurobipy.Model",
+      "dependency_version": "13.0.3",
+      "license": "restricted non-production license (runtime verified)"
+    },
+    {
+      "method": "CP_OPTIMIZER",
+      "name": "IBM ILOG CP Optimizer",
+      "class": "docplex.cp.model.CpoModel",
+      "dependency_version": "2.32.264",
+      "runtime": "cpoptimizer.exe (runtime verified)"
+    }
+  ],
+  "git_commit": null,
+  "git_worktree_dirty": null,
+  "source_hash_algorithm": "sha256",
+  "source_hashes": {
+    "benchmark.py": "511d7a558f977ad477e915ca1d9de5b8109e4946e7a822ed783069f2245c1689",
+    "cplex_mip_solver.py": "5b5bbafe57f7ffed1455b008fdd800008da0906595222ddbf6880298fd2912b8",
+    "cp_optimizer_solver.py": "e659f2935877e9516997b9188eb98894d4d465de8ad54e9fbc1723b5995ed757",
+    "cpsat_solver.py": "12a6a919ad6a02f24be9f99ab74be747fa632d1f0248c7cf58e140ffa7fcced1",
+    "gurobi_mip_solver.py": "5554af3d012b0489dcf0df2d4581f8ae0babb3b789f75a8dc3ce226f1f74c1ee",
+    "sat_encoding.py": "392dbdc96361e4f5f025c0d3f088b51b10b41b7bc5c41ae6ad0dcabd31347c27",
+    "sat_solver.py": "284b05671cc25a85bf4b30a00d69cb90cb3bad518dd0b1d5603c460bf8ce507f",
+    "timeout_runner.py": "eb063f9bf339c57b27d4c06d2891577dec0207e5bd0312a6b92ee94658de983b",
+    "validator.py": "5f1ede2661350f0e7cf66b0b2addfc978e4cdd6bbf4faa59d7f5498c4676c005",
+    "requirements.txt": "370228fa5aed8929975222fda888ee4edacc98f250beca54fecb1726f33346c5"
+  }
+}
